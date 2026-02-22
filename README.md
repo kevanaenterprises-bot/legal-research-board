@@ -45,6 +45,13 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 npm run build
 ```
 
+### Deploying on Railway
+
+Set the following commands in your Railway service settings:
+
+- **Build command**: `npm run build`
+- **Start command**: `npm run preview -- --host 0.0.0.0 --port $PORT`
+
 ## Important Disclaimer
 
 ⚠️ **This app does NOT provide legal advice.** It is a research tool that provides links to public legal resources and helps draft letters. Always:
