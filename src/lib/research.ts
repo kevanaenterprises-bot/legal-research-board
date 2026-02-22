@@ -5,7 +5,7 @@ export interface ResearchResult {
 
 export async function researchStateLawWeb(
   stateName: string,
-  issueDescription: string
+  _issueDescription: string
 ): Promise<ResearchResult> {
   // Simulated research function
   // In a real application, this would query actual legal databases
